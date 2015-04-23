@@ -14,9 +14,88 @@ body {
 /*header*/
 
 /*navigation*/
+nav {
+
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  background: green;
+}
+
+ul {
+  display: block;
+  margin: 0;
+  width: 100%;
+  padding:0;
+  overflow: hidden;
+  background-color: rgba(171,182,55,1);
+overflow: hidden;
+}
+
+#logo{
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 20%;
+  background: #fff;
+}
+
+li img{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+
+}
+
+nav li {
+  /*float: both;*/
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+  display: inline;
+  width: 22.6%;
+  box-sizing: border-box;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  padding-top: 2em:
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li:hover{
+  background-color: green;
+}
 
 /*banner*/
+h2{
+  width: 100%;
+}
 
+h1 {
+  position: relative;
+  bottom: 2em;
+  margin: 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
 /*main*/
 
+h2 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  padding-left: 1em;
+}
 /*footer*/
