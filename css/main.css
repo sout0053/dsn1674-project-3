@@ -37,11 +37,11 @@ nav ul {
   overflow: hidden;
 }
 
-#logo{
+.logo {
+  width: 100%;
   padding: 0;
   margin: 0;
   display: block;
-  width: 20%;
   background: #fff;
 }
 
@@ -62,7 +62,7 @@ nav li {
   text-align: center;
   vertical-align: middle;
   padding: 5px;
-  width: 22.6%;
+  width: 33%;
   box-sizing: border-box;
   line-height: 1.5em;
   text-transform: uppercase;
@@ -79,13 +79,15 @@ nav li:hover{
 }
 
 /*banner*/
-h2{
-  width: 100%;
+
+.banner {
+  height: 220px;
 }
 
 h1 {
+  text-shadow: 2px 2px #000000;
   position: relative;
-  bottom: 2em;
+  bottom: 3.5em;
   margin: 0;
   color: white;
   text-align: center;
@@ -94,11 +96,15 @@ h1 {
 /*main*/
 
 .stars {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: .5em;
   width: 30%;
 }
 
 h2 {
+  width: 100%;
   text-align: center;
 }
 
@@ -111,15 +117,29 @@ img {
   width: 100%;
 }
 
-.logo {
-  width: 100%;
-}
-
 p {
+  width: 100%;
+  position: relative;
+  display: block;
   padding-left: 1em;
 }
 
 figcaption {
+  padding-right: 1em;
+  padding-left: 1em;
   font-style: italic;
+  text-align: right;
+}
+
+.contact {
+  text-align: center;
 }
 /*footer*/
+h4, .to-top {
+  text-decorations: none;
+  text-align: center;
+  color: white;
+  background-color: rgba(171,182,55,1);
+  padding-top: .1em;
+  padding-bottom: .1em;
+}
