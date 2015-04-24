@@ -66,7 +66,6 @@ nav li {
   box-sizing: border-box;
   line-height: 1.5em;
   text-transform: uppercase;
-  padding-top: 2em:
 }
 
 nav a {
@@ -136,7 +135,6 @@ figcaption {
 }
 /*footer*/
 h4, .to-top {
-  text-decorations: none;
   text-align: center;
   color: white;
   background-color: rgba(171,182,55,1);
