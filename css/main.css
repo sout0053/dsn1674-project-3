@@ -13,7 +13,7 @@ body {
 
 /*header*/
 
-div .header {
+.header {
   color: white;
   background-color: rgba(171,182,55,1);
   padding-top: .1em;
